@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  @apply bg-yellow-50 max-w-md w-full mx-auto;
+}
+
+.todo-item {
+  @apply w-full bg-transparent border-b-gray-400 border-b-2 border-dotted focus:outline-none;
+}
